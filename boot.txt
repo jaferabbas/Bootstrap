@@ -1,0 +1,82 @@
+All Notes In mobile Favorite 
+
+Font size
+==============================
+fs-1 
+fs-2 
+fs-3 
+fs-4 
+fs-5 
+
+Font Bold 
+==============================
+fw-normal
+fw-bold 
+fw-light 
+fe-lighter 
+================================
+
+font-style:italic | normal 
+fst-normal 
+fst-italic 
+
+===============================
+
+text-allign 
+===========
+
+BSV 4 text-left    BSv 5 text-start 
+BSV 4 text-right   BSV text-end 
+text-center
+================================
+
+border 
+======
+border-1 => 1px all side 
+border-2 => 2px all side 
+----
+border-5 
+=======
+
+border-colorname
+border-success 
+border-info 
+border-primary 
+================================ 
+
+border-top-0  for no border at top 
+border-bottom-0
+border-start-0 
+border-end-0 
+
+===============================
+
+border-radius 
+=============
+rounded 
+rounded-start 
+rounded-end 
+rounded-top 
+rounded-bottom 
+
+rounded-1
+rounded-2 
+.........
+rounded-5
+
+===============================
+
+text-bg-dark 
+text-bg-success 
+
+===============================
+
+View Port
+===============================
+sm for small devices    <=572px 
+md for medium devices   <=768px
+lg for larges devices   <=992px
+xl for  extra large devices/ screen  <=1200px 
+xxl  for extra extra large  screen  <=1400px 
+
+

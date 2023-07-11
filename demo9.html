@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+          body{
+            background: url("img/b.jpg");
+            background-size: 100% 100%;
+        }
+        .outer{
+            min-height: 900px;
+            background: repeating-linear-gradient(-45deg,rgba(0,0,0,.7)20%,rgba(255,255,255,.4) 40%);
+            box-shadow: 10px 10px 20px white;
+        }
+      
+.btn1{
+            min-height: 50px;
+            margin-bottom: 4%;
+            
+}
+.txt{
+            min-height: 65px;
+            margin-bottom: 4%;
+        }
+.pd{
+    padding-top: 20%;
+}
+    </style>
+</head>
+<body>
+    <div class="container outer">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 rounded-4 pd">
+                <form>
+                    <h2 class="text-center pb-3">LOGIN</h2>
+                    <input type="text" class="form-control txt" placeholder="Username..."/>
+                    <input type="text" class="form-control txt" placeholder="password..."/>
+                    <input type="checkbox" class="mb-3"  checked/> <span class="text-light">Remember me</span> 
+                    <input type="submit" value="Login" class="btn1 form-control text-bg-primary">
+                </form>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+</body>
+</html>
